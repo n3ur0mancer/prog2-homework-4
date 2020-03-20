@@ -1,4 +1,4 @@
-# programming2-homework4-pitwagner
+# programming2-homework4
 
 navigate to folder in your directory 
 
