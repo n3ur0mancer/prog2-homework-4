@@ -1,0 +1,31 @@
+<head>
+    <link rel="stylesheet" href="https://use.typekit.net/akl1lbd.css">
+</head>
+
+
+<header>
+    <h1>Overview</h1>
+</header>
+
+
+<main>
+    <section>
+        {{#articles}}
+        <article class="home-article">
+             <div class="home-article__image">
+                 <a href="{{linkUrl}}"><img src="{{imageUrl}}"></a>
+             </div>
+             <div class="home-article__title">
+                 <a href="{{linkUrl}}"><h2>{{headline}}</h2></a>
+             </div>
+             <div class="container">
+                <p class="home-article__author">{{author}}</p>
+                <p class="home-article__date">{{date}}</p>
+             </div>
+             <div class="home-article__teaser-text">
+               <a href="{{linkUrl}}"><p>{{teaser}}</p></a>
+             </div>
+        </article>
+        {{/articles}}
+    </section>
+</main>
